@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(173deg, rgba(84, 35, 215, 0.24) -20.49%, rgba(31, 61, 167, 0.00) 93.7%), #FFF;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.left {
+    width: 100%;
+}
+
+.field-container {
+    align-items: flex-start;
+}
+
+.or {
+    margin-bottom: 20px;
+    align-self: stretch;
+    margin-top: 20px; 
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+form {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    width: 100%;
+}
+
+.header {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #222;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.google-button {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 16px 24px;
+    align-items: center;
+    color: #222;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 20px; 
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;}
+
+.username,
+.pass,
+.cpass {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 16px 40px;
+    border: 1px solid #222;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.submit {
+    cursor: pointer;
+    border-radius: 15px;
+    background: #4C14E2;
+    display: flex;
+    width: 100%;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
