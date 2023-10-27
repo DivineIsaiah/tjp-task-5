@@ -39,6 +39,8 @@ section {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
+    letter: 0.5px;
+    font: inter;
 }
 
 form {
